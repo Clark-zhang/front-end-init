@@ -1,0 +1,33 @@
+/*! Primitive
+  by Tania Rascia */
+
+// Configuration
+@import "base/variables";
+@import "base/mixins";
+
+// Reset
+@import "base/normalize";
+@import "base/reset";
+
+// Components
+@import "components/scaffolding";
+@import "components/grid";
+@import "components/helpers";
+@import "components/buttons";
+@import "components/forms";
+@import "components/tables";
+@import "components/navigation";
+@import "components/layout";
+
+//slick
+@import "slick/slick";
+@import "slick/slick-theme";
+
+.icon-sprite1, .icon-sprite2, .icon-sprite3, .icon-sprite4 {
+    margin: 10px 0px;
+    float: left;
+    margin-right: 20px;
+}
+.clark{
+    color:red;
+}
